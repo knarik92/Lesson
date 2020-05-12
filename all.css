@@ -1,0 +1,44 @@
+.text {
+	font-size: 20px;
+	line-height: 25px;
+	text-indent: 40px;
+	letter-spacing: 1px;
+	font-family: helvetica, sans-serif;
+	word-spacing: 5px;
+}
+.bg-box {
+	height: 500px;
+	background: url(../images/pole-zelen-trava-dom-derevya.jpg) 50% 50% / 350px auto no-repeat, 
+				url(../images/lamp-png-0.png) 0 0 / 50px auto repeat-x,
+				url(../images/trava-28.png) 0 100% / 240px 120px repeat-x,
+				url(../images/ezik.png) 0 0 / 50px 50px repeat-y,
+				url(../images/ponchik.png) 100% 0 / 50px 50px repeat-y,
+				green;
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+	background: repeating-linear-gradient(180deg,  transparent,
+    transparent 20px,
+    green 20px,
+    green 40px););
+}
+
+.block2 {
+	border: 2px;
+	padding: 20px; 	
+    height: 150px;
+    width: 10%;
+    background: linear-gradient(45deg, 
+    	black 80px, 
+    	grey 80px, 
+    	grey 190px,
+    	black 190px);
+}
+.block3 {
+	border: 2px;
+	padding: 20px;
+	width: 165px;
+	height: 165px;
+	background: radial-gradient(red 30px, black 20px);
+}
